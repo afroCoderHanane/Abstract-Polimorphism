@@ -15,4 +15,5 @@ int main() {
     cout<<"--------------------------------"<<endl;
     Ugrad *k2= new Ugrad(3.6, "CSC", "1234", "Pauline");
     k2->print();
+    delete k2;
 }
